@@ -1,0 +1,1992 @@
+{
+  "trims": [
+    {
+      "id": 1030668,
+      "vehicleType": "CAR",
+      "name": "GLi 2.0",
+      "fullName": "Toyota Corolla GLi 2.0",
+      "engine": "2.0",
+      "makeId": 20215,
+      "makeName": "Toyota",
+      "modelId": 20648,
+      "modelName": "Corolla",
+      "imageId": 2367424,
+      "images": [
+        {
+          "imageId": 2367430,
+          "position": 0
+        },
+        {
+          "imageId": 2367426,
+          "position": 1
+        },
+        {
+          "imageId": 2367429,
+          "position": 2
+        },
+        {
+          "imageId": 2367428,
+          "position": 3
+        },
+        {
+          "imageId": 2367427,
+          "position": 4
+        },
+        {
+          "imageId": 2367425,
+          "position": 5
+        },
+        {
+          "imageId": 94999037,
+          "position": 6
+        }
+      ],
+      "fuel": "Etanol",
+      "transmissionId": 1,
+      "transmissionName": "Automática",
+      "transmissionType": "AUTOMATIC",
+      "tank": 50,
+      "torque": "20.7",
+      "seats": 5,
+      "fuelId": 3,
+      "fuelName": "Etanol",
+      "bodystyleId": 1,
+      "initialYear": 2020,
+      "finalYear": 2020,
+      "fipeId": "002181-4",
+      "fipePrice": 106084,
+      "molicarId": 48006725,
+      "power": 154,
+      "cityConsumption": 7.2,
+      "roadConsumption": 12.6,
+      "height": 1455,
+      "width": 1780,
+      "length": 4630,
+      "imported": false,
+      "engineSize": 1986,
+      "price0km": 112663,
+      "alimentation": "injeção multi ponto",
+      "traction": "dianteira",
+      "rearSuspension": "Suspensão tipo eixo de torção, roda tipo semi-independente e molas helicoidal.",
+      "frontSuspension": "Suspensão tipo McPherson e dianteira com barra estabilizadora, roda tipo independente e molas helicoidal.",
+      "frontBrake": "Quatro freios à disco com dois discos ventilados.",
+      "wheelbases": 2700,
+      "currency": "REAL",
+      "inProduction": false,
+      "weight": 1335,
+      "notLauching": false,
+      "premium": false,
+      "power2": 143,
+      "trunk": 470,
+      "cityConsumption2": 10.6,
+      "torque2": 19.4,
+      "doors": 4,
+      "fuel2Id": 2,
+      "fuel2Name": "Gasolina",
+      "lifestyles": [
+        {
+          "id": 1006,
+          "name": "Carros para família grande"
+        }
+      ],
+      "features": [],
+      "featureMap": [
+        {
+          "id": 221,
+          "name": "Sensor de fadiga",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 110,
+          "name": "Volante multifuncional",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 15,
+          "name": "Rodas de liga leve",
+          "featureType": "CAR_OTHER",
+          "present": false
+        },
+        {
+          "id": 222,
+          "name": "Troca de marchas no volante",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 127,
+          "name": "Alerta de ponto cego",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 3,
+          "name": "Direção hidráulica",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 137,
+          "name": "Roteador Wi-Fi",
+          "featureType": "CAR_OTHER",
+          "present": false
+        },
+        {
+          "id": 207,
+          "name": "Volante com ajuste de profundidade",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 99,
+          "name": "Navegador GPS",
+          "featureType": "CAR_OTHER",
+          "present": false
+        },
+        {
+          "id": 37,
+          "name": "Rádio",
+          "featureType": "CAR_SOUND",
+          "present": false
+        },
+        {
+          "id": 173,
+          "name": "Banco traseiro rebatível",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 2,
+          "name": "Ar condicionado",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 199,
+          "name": "Faróis com ajuste de altura",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 161,
+          "name": "Câmera 360°",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 106,
+          "name": "Câmera de ré",
+          "featureType": "CAR_OTHER",
+          "present": false
+        },
+        {
+          "id": 170,
+          "name": "Controle eletrônico de estabilidade",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 8,
+          "name": "Freios ABS",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 184,
+          "name": "Luz no porta-malas",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 164,
+          "name": "Banco traseiro bipartido",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 12,
+          "name": "Limpador do vidro traseiro",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 215,
+          "name": "Alerta de colisão frontal",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 177,
+          "name": "Cintos de três pontos para todos os ocupantes",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 149,
+          "name": "Reconhecimento de placas de trânsito",
+          "featureType": "CAR_OTHER",
+          "present": false
+        },
+        {
+          "id": 18,
+          "name": "CD Player",
+          "featureType": "CAR_SOUND",
+          "present": false
+        },
+        {
+          "id": 23,
+          "name": "Ar quente",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 150,
+          "name": "ISOFIX para fixação de cadeira infantil",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 126,
+          "name": "Assistente de partida em rampa",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 112,
+          "name": "Sensores de estacionamento traseiro",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 42,
+          "name": "Sensores de estacionamento dianteiro",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 208,
+          "name": "Sistema de conectividade veicular",
+          "featureType": "CAR_OTHER",
+          "present": false
+        },
+        {
+          "id": 1,
+          "name": "Airbag para motorista",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 29,
+          "name": "Controle elétrico do vidros traseiros",
+          "featureType": "CAR_WINDOW",
+          "present": false
+        },
+        {
+          "id": 13,
+          "name": "Desembaçador do vidro traseiro",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 198,
+          "name": "Retrovisor interno fotocrômico",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 34,
+          "name": "Volante com ajuste de altura",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 176,
+          "name": "Chave presencial",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 109,
+          "name": "Acendimento automático dos faróis",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 186,
+          "name": "Terceira fileira de bancos",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 217,
+          "name": "Conexão HDMi",
+          "featureType": "CAR_OTHER",
+          "present": false
+        },
+        {
+          "id": 213,
+          "name": "Acionamento remoto do motor",
+          "featureType": "CAR_OTHER",
+          "present": false
+        },
+        {
+          "id": 97,
+          "name": "Central multimídia",
+          "featureType": "CAR_SOUND",
+          "present": false
+        },
+        {
+          "id": 219,
+          "name": "Monitoramento de pressão dos pneus",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 139,
+          "name": "Teto panorâmico",
+          "featureType": "CAR_OTHER",
+          "present": false
+        },
+        {
+          "id": 9,
+          "name": "Bancos revestidos de couro",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 160,
+          "name": "Limitador de velocidade",
+          "featureType": "CAR_OTHER",
+          "present": false
+        },
+        {
+          "id": 196,
+          "name": "Retrovisores rebatíveis eletricamente",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 157,
+          "name": "Espelhamento da tela do celular",
+          "featureType": "CAR_OTHER",
+          "present": false
+        },
+        {
+          "id": 25,
+          "name": "Piloto automático adaptativo",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 20,
+          "name": "Teto solar",
+          "featureType": "CAR_WINDOW",
+          "present": false
+        },
+        {
+          "id": 38,
+          "name": "Banco do motorista com ajuste de altura",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 180,
+          "name": "Encosto de cabeça para todos os ocupantes",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 36,
+          "name": "Conexão USB",
+          "featureType": "CAR_SOUND",
+          "present": false
+        },
+        {
+          "id": 214,
+          "name": "Alças de segurança no teto",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 216,
+          "name": "Apoio de braço no banco traseiro",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 148,
+          "name": "Luz de condução diurna",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 120,
+          "name": "Alerta de mudança de faixa",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 172,
+          "name": "Banco do passageiro com ajuste elétrico",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 162,
+          "name": "Carregador de celular por indução",
+          "featureType": "CAR_OTHER",
+          "present": false
+        },
+        {
+          "id": 102,
+          "name": "Conexão Bluetooth",
+          "featureType": "CAR_OTHER",
+          "present": false
+        },
+        {
+          "id": 7,
+          "name": "Alarme",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 163,
+          "name": "Banco do passageiro com aquecimento",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 210,
+          "name": "Certificado",
+          "featureType": "CAR_OTHER",
+          "present": false
+        },
+        {
+          "id": 39,
+          "name": "Ajuste elétrico dos retrovisores",
+          "featureType": "CAR_OTHER",
+          "present": false
+        },
+        {
+          "id": 114,
+          "name": "Auto Hold",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 115,
+          "name": "Airbags de cortina",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 218,
+          "name": "Head-up display",
+          "featureType": "CAR_OTHER",
+          "present": false
+        },
+        {
+          "id": 147,
+          "name": "Park Assist",
+          "featureType": "CAR_OTHER",
+          "present": false
+        },
+        {
+          "id": 4,
+          "name": "Controle elétrico do vidros dianteiros",
+          "featureType": "CAR_WINDOW",
+          "present": false
+        },
+        {
+          "id": 46,
+          "name": "Faróis de neblina",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 220,
+          "name": "Retrovisor externo fotocrômico",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 125,
+          "name": "Controle automático de descida",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 121,
+          "name": "Alerta de tráfego traseiro cruzado",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 122,
+          "name": "Assistente de permanência em faixa",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 155,
+          "name": "Faróis de LED",
+          "featureType": "CAR_OTHER",
+          "present": false
+        },
+        {
+          "id": 185,
+          "name": "Luz no porta-luvas",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 11,
+          "name": "Airbags frontais",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 5,
+          "name": "Travas elétricas",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 178,
+          "name": "Apoio de braço para o motorista",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 27,
+          "name": "Computador de bordo",
+          "featureType": "CAR_OTHER",
+          "present": false
+        },
+        {
+          "id": 142,
+          "name": "Sistema Start-Stop",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 31,
+          "name": "Controle de tração",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 48,
+          "name": "Capota marítima",
+          "featureType": "CAR_OTHER",
+          "present": false
+        },
+        {
+          "id": 98,
+          "name": "Direção elétrica",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 171,
+          "name": "Banco do motorista com ajuste elétrico",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 28,
+          "name": "Airbags laterais",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 124,
+          "name": "Frenagem autônoma de emergência",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 151,
+          "name": "Faróis de laser",
+          "featureType": "CAR_OTHER",
+          "present": false
+        },
+        {
+          "id": 174,
+          "name": "Banco do motorista com aquecimento",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        }
+      ]
+    },
+    {
+      "id": 1030669,
+      "vehicleType": "CAR",
+      "name": "2.0 XEi Multi-Drive S (Flex)",
+      "fullName": "Toyota Corolla 2.0 XEi Multi-Drive S (Flex)",
+      "engine": "2.0",
+      "makeId": 20215,
+      "makeName": "Toyota",
+      "modelId": 20648,
+      "modelName": "Corolla",
+      "imageId": 2367431,
+      "images": [
+        {
+          "imageId": 2367432,
+          "position": 0
+        },
+        {
+          "imageId": 2367432,
+          "position": 0
+        },
+        {
+          "imageId": 2367432,
+          "position": 0
+        },
+        {
+          "imageId": 2367436,
+          "position": 1
+        },
+        {
+          "imageId": 2367436,
+          "position": 1
+        },
+        {
+          "imageId": 2367436,
+          "position": 1
+        },
+        {
+          "imageId": 2367434,
+          "position": 2
+        },
+        {
+          "imageId": 2367434,
+          "position": 2
+        },
+        {
+          "imageId": 2367435,
+          "position": 3
+        },
+        {
+          "imageId": 2367435,
+          "position": 3
+        },
+        {
+          "imageId": 95001498,
+          "position": 4
+        }
+      ],
+      "fuel": "Etanol",
+      "transmissionId": 1,
+      "transmissionName": "Automática",
+      "tank": 50,
+      "torque": "20.7",
+      "seats": 5,
+      "fuelId": 3,
+      "fuelName": "Etanol",
+      "bodystyleId": 1,
+      "initialYear": 2020,
+      "finalYear": 2020,
+      "fipeId": "002111-3",
+      "fipePrice": 114373,
+      "molicarId": 48033042,
+      "power": 154,
+      "cityConsumption": 7.2,
+      "roadConsumption": 12.6,
+      "height": 1455,
+      "width": 1780,
+      "length": 4630,
+      "imported": false,
+      "engineSize": 1986,
+      "price0km": 111990,
+      "alimentation": "injeção multi ponto",
+      "traction": "dianteira",
+      "rearSuspension": "Suspensão tipo eixo de torção, roda tipo semi-independente e molas helicoidal.",
+      "frontSuspension": "Suspensão tipo McPherson e dianteira com barra estabilizadora, roda tipo independente e molas helicoidal.",
+      "frontBrake": "Quatro freios à disco com dois discos ventilados.",
+      "wheelbases": 2700,
+      "currency": "REAL",
+      "inProduction": false,
+      "weight": 1335,
+      "notLauching": false,
+      "premium": false,
+      "power2": 143,
+      "trunk": 470,
+      "cityConsumption2": 10.6,
+      "torque2": 19.4,
+      "doors": 4,
+      "fuel2Id": 2,
+      "fuel2Name": "Gasolina",
+      "lifestyles": [
+        {
+          "id": 1006,
+          "name": "Carros para família grande"
+        }
+      ],
+      "features": [
+        {
+          "id": 46,
+          "name": "Faróis de neblina",
+          "type": "CAR_SECURITY"
+        },
+        {
+          "id": 29,
+          "name": "Controle elétrico do vidros traseiros",
+          "type": "CAR_WINDOW"
+        },
+        {
+          "id": 27,
+          "name": "Computador de bordo",
+          "type": "CAR_OTHER"
+        },
+        {
+          "id": 18,
+          "name": "CD Player",
+          "type": "CAR_SOUND"
+        },
+        {
+          "id": 9,
+          "name": "Bancos revestidos de couro",
+          "type": "CAR_COMFORT"
+        },
+        {
+          "id": 5,
+          "name": "Travas elétricas",
+          "type": "CAR_COMFORT"
+        },
+        {
+          "id": 11,
+          "name": "Airbags frontais",
+          "type": "CAR_SECURITY"
+        },
+        {
+          "id": 36,
+          "name": "Conexão USB",
+          "type": "CAR_SOUND"
+        },
+        {
+          "id": 8,
+          "name": "Freios ABS",
+          "type": "CAR_SECURITY"
+        },
+        {
+          "id": 1,
+          "name": "Airbag para motorista",
+          "type": "CAR_SECURITY"
+        },
+        {
+          "id": 25,
+          "name": "Piloto automático adaptativo",
+          "type": "CAR_SECURITY"
+        },
+        {
+          "id": 34,
+          "name": "Volante com ajuste de altura",
+          "type": "CAR_COMFORT"
+        },
+        {
+          "id": 13,
+          "name": "Desembaçador do vidro traseiro",
+          "type": "CAR_SECURITY"
+        },
+        {
+          "id": 28,
+          "name": "Airbags laterais",
+          "type": "CAR_SECURITY"
+        },
+        {
+          "id": 4,
+          "name": "Controle elétrico do vidros dianteiros",
+          "type": "CAR_WINDOW"
+        },
+        {
+          "id": 2,
+          "name": "Ar condicionado",
+          "type": "CAR_COMFORT"
+        },
+        {
+          "id": 97,
+          "name": "Central multimídia",
+          "type": "CAR_SOUND"
+        },
+        {
+          "id": 14,
+          "name": "Câmbio Automático",
+          "type": "CAR_COMFORT"
+        },
+        {
+          "id": 42,
+          "name": "Sensores de estacionamento dianteiro",
+          "type": "CAR_SECURITY"
+        },
+        {
+          "id": 15,
+          "name": "Rodas de liga leve",
+          "type": "CAR_OTHER"
+        },
+        {
+          "id": 7,
+          "name": "Alarme",
+          "type": "CAR_SECURITY"
+        },
+        {
+          "id": 37,
+          "name": "Rádio",
+          "type": "CAR_SOUND"
+        }
+      ],
+      "featureMap": [
+        {
+          "id": 221,
+          "name": "Sensor de fadiga",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 110,
+          "name": "Volante multifuncional",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 222,
+          "name": "Troca de marchas no volante",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 127,
+          "name": "Alerta de ponto cego",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 3,
+          "name": "Direção hidráulica",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 137,
+          "name": "Roteador Wi-Fi",
+          "featureType": "CAR_OTHER",
+          "present": false
+        },
+        {
+          "id": 207,
+          "name": "Volante com ajuste de profundidade",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 99,
+          "name": "Navegador GPS",
+          "featureType": "CAR_OTHER",
+          "present": false
+        },
+        {
+          "id": 15,
+          "name": "Rodas de liga leve",
+          "featureType": "CAR_OTHER",
+          "present": true
+        },
+        {
+          "id": 13,
+          "name": "Desembaçador do vidro traseiro",
+          "featureType": "CAR_SECURITY",
+          "present": true
+        },
+        {
+          "id": 173,
+          "name": "Banco traseiro rebatível",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 8,
+          "name": "Freios ABS",
+          "featureType": "CAR_SECURITY",
+          "present": true
+        },
+        {
+          "id": 2,
+          "name": "Ar condicionado",
+          "featureType": "CAR_COMFORT",
+          "present": true
+        },
+        {
+          "id": 199,
+          "name": "Faróis com ajuste de altura",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 161,
+          "name": "Câmera 360°",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 106,
+          "name": "Câmera de ré",
+          "featureType": "CAR_OTHER",
+          "present": false
+        },
+        {
+          "id": 170,
+          "name": "Controle eletrônico de estabilidade",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 184,
+          "name": "Luz no porta-malas",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 164,
+          "name": "Banco traseiro bipartido",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 12,
+          "name": "Limpador do vidro traseiro",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 215,
+          "name": "Alerta de colisão frontal",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 97,
+          "name": "Central multimídia",
+          "featureType": "CAR_SOUND",
+          "present": true
+        },
+        {
+          "id": 177,
+          "name": "Cintos de três pontos para todos os ocupantes",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 149,
+          "name": "Reconhecimento de placas de trânsito",
+          "featureType": "CAR_OTHER",
+          "present": false
+        },
+        {
+          "id": 23,
+          "name": "Ar quente",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 1,
+          "name": "Airbag para motorista",
+          "featureType": "CAR_SECURITY",
+          "present": true
+        },
+        {
+          "id": 18,
+          "name": "CD Player",
+          "featureType": "CAR_SOUND",
+          "present": true
+        },
+        {
+          "id": 150,
+          "name": "ISOFIX para fixação de cadeira infantil",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 126,
+          "name": "Assistente de partida em rampa",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 112,
+          "name": "Sensores de estacionamento traseiro",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 37,
+          "name": "Rádio",
+          "featureType": "CAR_SOUND",
+          "present": true
+        },
+        {
+          "id": 208,
+          "name": "Sistema de conectividade veicular",
+          "featureType": "CAR_OTHER",
+          "present": false
+        },
+        {
+          "id": 34,
+          "name": "Volante com ajuste de altura",
+          "featureType": "CAR_COMFORT",
+          "present": true
+        },
+        {
+          "id": 29,
+          "name": "Controle elétrico do vidros traseiros",
+          "featureType": "CAR_WINDOW",
+          "present": true
+        },
+        {
+          "id": 198,
+          "name": "Retrovisor interno fotocrômico",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 176,
+          "name": "Chave presencial",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 42,
+          "name": "Sensores de estacionamento dianteiro",
+          "featureType": "CAR_SECURITY",
+          "present": true
+        },
+        {
+          "id": 109,
+          "name": "Acendimento automático dos faróis",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 186,
+          "name": "Terceira fileira de bancos",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 217,
+          "name": "Conexão HDMi",
+          "featureType": "CAR_OTHER",
+          "present": false
+        },
+        {
+          "id": 213,
+          "name": "Acionamento remoto do motor",
+          "featureType": "CAR_OTHER",
+          "present": false
+        },
+        {
+          "id": 219,
+          "name": "Monitoramento de pressão dos pneus",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 139,
+          "name": "Teto panorâmico",
+          "featureType": "CAR_OTHER",
+          "present": false
+        },
+        {
+          "id": 160,
+          "name": "Limitador de velocidade",
+          "featureType": "CAR_OTHER",
+          "present": false
+        },
+        {
+          "id": 196,
+          "name": "Retrovisores rebatíveis eletricamente",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 157,
+          "name": "Espelhamento da tela do celular",
+          "featureType": "CAR_OTHER",
+          "present": false
+        },
+        {
+          "id": 20,
+          "name": "Teto solar",
+          "featureType": "CAR_WINDOW",
+          "present": false
+        },
+        {
+          "id": 38,
+          "name": "Banco do motorista com ajuste de altura",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 36,
+          "name": "Conexão USB",
+          "featureType": "CAR_SOUND",
+          "present": true
+        },
+        {
+          "id": 180,
+          "name": "Encosto de cabeça para todos os ocupantes",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 214,
+          "name": "Alças de segurança no teto",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 25,
+          "name": "Piloto automático adaptativo",
+          "featureType": "CAR_SECURITY",
+          "present": true
+        },
+        {
+          "id": 216,
+          "name": "Apoio de braço no banco traseiro",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 148,
+          "name": "Luz de condução diurna",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 120,
+          "name": "Alerta de mudança de faixa",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 172,
+          "name": "Banco do passageiro com ajuste elétrico",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 162,
+          "name": "Carregador de celular por indução",
+          "featureType": "CAR_OTHER",
+          "present": false
+        },
+        {
+          "id": 102,
+          "name": "Conexão Bluetooth",
+          "featureType": "CAR_OTHER",
+          "present": false
+        },
+        {
+          "id": 4,
+          "name": "Controle elétrico do vidros dianteiros",
+          "featureType": "CAR_WINDOW",
+          "present": true
+        },
+        {
+          "id": 163,
+          "name": "Banco do passageiro com aquecimento",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 210,
+          "name": "Certificado",
+          "featureType": "CAR_OTHER",
+          "present": false
+        },
+        {
+          "id": 39,
+          "name": "Ajuste elétrico dos retrovisores",
+          "featureType": "CAR_OTHER",
+          "present": false
+        },
+        {
+          "id": 114,
+          "name": "Auto Hold",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 115,
+          "name": "Airbags de cortina",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 218,
+          "name": "Head-up display",
+          "featureType": "CAR_OTHER",
+          "present": false
+        },
+        {
+          "id": 147,
+          "name": "Park Assist",
+          "featureType": "CAR_OTHER",
+          "present": false
+        },
+        {
+          "id": 7,
+          "name": "Alarme",
+          "featureType": "CAR_SECURITY",
+          "present": true
+        },
+        {
+          "id": 9,
+          "name": "Bancos revestidos de couro",
+          "featureType": "CAR_COMFORT",
+          "present": true
+        },
+        {
+          "id": 46,
+          "name": "Faróis de neblina",
+          "featureType": "CAR_SECURITY",
+          "present": true
+        },
+        {
+          "id": 220,
+          "name": "Retrovisor externo fotocrômico",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 125,
+          "name": "Controle automático de descida",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 5,
+          "name": "Travas elétricas",
+          "featureType": "CAR_COMFORT",
+          "present": true
+        },
+        {
+          "id": 121,
+          "name": "Alerta de tráfego traseiro cruzado",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 122,
+          "name": "Assistente de permanência em faixa",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 155,
+          "name": "Faróis de LED",
+          "featureType": "CAR_OTHER",
+          "present": false
+        },
+        {
+          "id": 185,
+          "name": "Luz no porta-luvas",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 27,
+          "name": "Computador de bordo",
+          "featureType": "CAR_OTHER",
+          "present": true
+        },
+        {
+          "id": 11,
+          "name": "Airbags frontais",
+          "featureType": "CAR_SECURITY",
+          "present": true
+        },
+        {
+          "id": 178,
+          "name": "Apoio de braço para o motorista",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 142,
+          "name": "Sistema Start-Stop",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 28,
+          "name": "Airbags laterais",
+          "featureType": "CAR_SECURITY",
+          "present": true
+        },
+        {
+          "id": 31,
+          "name": "Controle de tração",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 48,
+          "name": "Capota marítima",
+          "featureType": "CAR_OTHER",
+          "present": false
+        },
+        {
+          "id": 98,
+          "name": "Direção elétrica",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 171,
+          "name": "Banco do motorista com ajuste elétrico",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 124,
+          "name": "Frenagem autônoma de emergência",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 151,
+          "name": "Faróis de laser",
+          "featureType": "CAR_OTHER",
+          "present": false
+        },
+        {
+          "id": 174,
+          "name": "Banco do motorista com aquecimento",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        }
+      ]
+    },
+    {
+      "id": 1030670,
+      "vehicleType": "CAR",
+      "name": "2.0 Altis Direct Shift (Flex)",
+      "fullName": "Toyota Corolla 2.0 Altis Direct Shift (Flex)",
+      "engine": "2.0",
+      "makeId": 20215,
+      "makeName": "Toyota",
+      "modelId": 20648,
+      "modelName": "Corolla",
+      "imageId": 2367437,
+      "images": [
+        {
+          "imageId": 2367442,
+          "position": 0
+        },
+        {
+          "imageId": 2367441,
+          "position": 1
+        },
+        {
+          "imageId": 2367439,
+          "position": 2
+        },
+        {
+          "imageId": 2367438,
+          "position": 3
+        },
+        {
+          "imageId": 2367440,
+          "position": 4
+        },
+        {
+          "imageId": 2367444,
+          "position": 5
+        },
+        {
+          "imageId": 2367443,
+          "position": 6
+        }
+      ],
+      "fuel": "Etanol",
+      "transmissionId": 1,
+      "transmissionName": "Automática",
+      "tank": 50,
+      "torque": "20.7",
+      "seats": 5,
+      "fuelId": 3,
+      "fuelName": "Etanol",
+      "bodystyleId": 1,
+      "initialYear": 2020,
+      "finalYear": 2020,
+      "fipeId": "002112-1",
+      "fipePrice": 123253,
+      "molicarId": 48033054,
+      "power": 154,
+      "cityConsumption": 7.2,
+      "roadConsumption": 12.6,
+      "height": 1455,
+      "width": 1780,
+      "length": 4630,
+      "imported": false,
+      "engineSize": 1986,
+      "price0km": 125000,
+      "alimentation": "injeção multi ponto",
+      "traction": "dianteira",
+      "rearSuspension": "Suspensão tipo eixo de torção, roda tipo semi-independente e molas helicoidal.",
+      "frontSuspension": "Suspensão tipo McPherson e dianteira com barra estabilizadora, roda tipo independente e molas helicoidal.",
+      "frontBrake": "Quatro freios à disco com dois discos ventilados.",
+      "wheelbases": 2700,
+      "currency": "REAL",
+      "inProduction": false,
+      "weight": 1340,
+      "notLauching": false,
+      "premium": false,
+      "power2": 143,
+      "trunk": 470,
+      "cityConsumption2": 10.6,
+      "torque2": 19.4,
+      "doors": 4,
+      "fuel2Id": 2,
+      "fuel2Name": "Gasolina",
+      "lifestyles": [
+        {
+          "id": 1006,
+          "name": "Carros para família grande"
+        }
+      ],
+      "features": [],
+      "featureMap": [
+        {
+          "id": 221,
+          "name": "Sensor de fadiga",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 110,
+          "name": "Volante multifuncional",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 15,
+          "name": "Rodas de liga leve",
+          "featureType": "CAR_OTHER",
+          "present": false
+        },
+        {
+          "id": 222,
+          "name": "Troca de marchas no volante",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 127,
+          "name": "Alerta de ponto cego",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 3,
+          "name": "Direção hidráulica",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 137,
+          "name": "Roteador Wi-Fi",
+          "featureType": "CAR_OTHER",
+          "present": false
+        },
+        {
+          "id": 207,
+          "name": "Volante com ajuste de profundidade",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 99,
+          "name": "Navegador GPS",
+          "featureType": "CAR_OTHER",
+          "present": false
+        },
+        {
+          "id": 37,
+          "name": "Rádio",
+          "featureType": "CAR_SOUND",
+          "present": false
+        },
+        {
+          "id": 173,
+          "name": "Banco traseiro rebatível",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 2,
+          "name": "Ar condicionado",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 199,
+          "name": "Faróis com ajuste de altura",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 161,
+          "name": "Câmera 360°",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 106,
+          "name": "Câmera de ré",
+          "featureType": "CAR_OTHER",
+          "present": false
+        },
+        {
+          "id": 170,
+          "name": "Controle eletrônico de estabilidade",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 8,
+          "name": "Freios ABS",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 184,
+          "name": "Luz no porta-malas",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 164,
+          "name": "Banco traseiro bipartido",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 12,
+          "name": "Limpador do vidro traseiro",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 215,
+          "name": "Alerta de colisão frontal",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 177,
+          "name": "Cintos de três pontos para todos os ocupantes",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 149,
+          "name": "Reconhecimento de placas de trânsito",
+          "featureType": "CAR_OTHER",
+          "present": false
+        },
+        {
+          "id": 18,
+          "name": "CD Player",
+          "featureType": "CAR_SOUND",
+          "present": false
+        },
+        {
+          "id": 23,
+          "name": "Ar quente",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 150,
+          "name": "ISOFIX para fixação de cadeira infantil",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 126,
+          "name": "Assistente de partida em rampa",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 112,
+          "name": "Sensores de estacionamento traseiro",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 42,
+          "name": "Sensores de estacionamento dianteiro",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 208,
+          "name": "Sistema de conectividade veicular",
+          "featureType": "CAR_OTHER",
+          "present": false
+        },
+        {
+          "id": 1,
+          "name": "Airbag para motorista",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 29,
+          "name": "Controle elétrico do vidros traseiros",
+          "featureType": "CAR_WINDOW",
+          "present": false
+        },
+        {
+          "id": 13,
+          "name": "Desembaçador do vidro traseiro",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 198,
+          "name": "Retrovisor interno fotocrômico",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 34,
+          "name": "Volante com ajuste de altura",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 176,
+          "name": "Chave presencial",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 109,
+          "name": "Acendimento automático dos faróis",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 186,
+          "name": "Terceira fileira de bancos",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 217,
+          "name": "Conexão HDMi",
+          "featureType": "CAR_OTHER",
+          "present": false
+        },
+        {
+          "id": 213,
+          "name": "Acionamento remoto do motor",
+          "featureType": "CAR_OTHER",
+          "present": false
+        },
+        {
+          "id": 97,
+          "name": "Central multimídia",
+          "featureType": "CAR_SOUND",
+          "present": false
+        },
+        {
+          "id": 219,
+          "name": "Monitoramento de pressão dos pneus",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 139,
+          "name": "Teto panorâmico",
+          "featureType": "CAR_OTHER",
+          "present": false
+        },
+        {
+          "id": 9,
+          "name": "Bancos revestidos de couro",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 160,
+          "name": "Limitador de velocidade",
+          "featureType": "CAR_OTHER",
+          "present": false
+        },
+        {
+          "id": 196,
+          "name": "Retrovisores rebatíveis eletricamente",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 157,
+          "name": "Espelhamento da tela do celular",
+          "featureType": "CAR_OTHER",
+          "present": false
+        },
+        {
+          "id": 25,
+          "name": "Piloto automático adaptativo",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 20,
+          "name": "Teto solar",
+          "featureType": "CAR_WINDOW",
+          "present": false
+        },
+        {
+          "id": 38,
+          "name": "Banco do motorista com ajuste de altura",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 180,
+          "name": "Encosto de cabeça para todos os ocupantes",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 36,
+          "name": "Conexão USB",
+          "featureType": "CAR_SOUND",
+          "present": false
+        },
+        {
+          "id": 214,
+          "name": "Alças de segurança no teto",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 216,
+          "name": "Apoio de braço no banco traseiro",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 148,
+          "name": "Luz de condução diurna",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 120,
+          "name": "Alerta de mudança de faixa",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 172,
+          "name": "Banco do passageiro com ajuste elétrico",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 162,
+          "name": "Carregador de celular por indução",
+          "featureType": "CAR_OTHER",
+          "present": false
+        },
+        {
+          "id": 102,
+          "name": "Conexão Bluetooth",
+          "featureType": "CAR_OTHER",
+          "present": false
+        },
+        {
+          "id": 7,
+          "name": "Alarme",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 163,
+          "name": "Banco do passageiro com aquecimento",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 210,
+          "name": "Certificado",
+          "featureType": "CAR_OTHER",
+          "present": false
+        },
+        {
+          "id": 39,
+          "name": "Ajuste elétrico dos retrovisores",
+          "featureType": "CAR_OTHER",
+          "present": false
+        },
+        {
+          "id": 114,
+          "name": "Auto Hold",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 115,
+          "name": "Airbags de cortina",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 218,
+          "name": "Head-up display",
+          "featureType": "CAR_OTHER",
+          "present": false
+        },
+        {
+          "id": 147,
+          "name": "Park Assist",
+          "featureType": "CAR_OTHER",
+          "present": false
+        },
+        {
+          "id": 4,
+          "name": "Controle elétrico do vidros dianteiros",
+          "featureType": "CAR_WINDOW",
+          "present": false
+        },
+        {
+          "id": 46,
+          "name": "Faróis de neblina",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 220,
+          "name": "Retrovisor externo fotocrômico",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 125,
+          "name": "Controle automático de descida",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 121,
+          "name": "Alerta de tráfego traseiro cruzado",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 122,
+          "name": "Assistente de permanência em faixa",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 155,
+          "name": "Faróis de LED",
+          "featureType": "CAR_OTHER",
+          "present": false
+        },
+        {
+          "id": 185,
+          "name": "Luz no porta-luvas",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 11,
+          "name": "Airbags frontais",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 5,
+          "name": "Travas elétricas",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 178,
+          "name": "Apoio de braço para o motorista",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 27,
+          "name": "Computador de bordo",
+          "featureType": "CAR_OTHER",
+          "present": false
+        },
+        {
+          "id": 142,
+          "name": "Sistema Start-Stop",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 31,
+          "name": "Controle de tração",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 48,
+          "name": "Capota marítima",
+          "featureType": "CAR_OTHER",
+          "present": false
+        },
+        {
+          "id": 98,
+          "name": "Direção elétrica",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 171,
+          "name": "Banco do motorista com ajuste elétrico",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        },
+        {
+          "id": 28,
+          "name": "Airbags laterais",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 124,
+          "name": "Frenagem autônoma de emergência",
+          "featureType": "CAR_SECURITY",
+          "present": false
+        },
+        {
+          "id": 151,
+          "name": "Faróis de laser",
+          "featureType": "CAR_OTHER",
+          "present": false
+        },
+        {
+          "id": 174,
+          "name": "Banco do motorista com aquecimento",
+          "featureType": "CAR_COMFORT",
+          "present": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,591 @@
+{
+  "num_results": 283,
+  "results": [
+    {
+      "id": 10981730,
+      "price": 124900,
+      "deal0km": false,
+      "km": 85000,
+      "hasProductFeirao": false,
+      "hasProductVideocall": false,
+      "oem": false,
+      "hasMechanicalWarranty": false,
+      "hasRepairAssistance": false,
+      "images": [
+        {
+          "imageId": 325237575,
+          "position": 0
+        },
+        {
+          "imageId": 325237578,
+          "position": 1
+        },
+        {
+          "imageId": 325237582,
+          "position": 2
+        },
+        {
+          "imageId": 325237586,
+          "position": 3
+        },
+        {
+          "imageId": 325237589,
+          "position": 4
+        },
+        {
+          "imageId": 325237593,
+          "position": 5
+        },
+        {
+          "imageId": 325237596,
+          "position": 6
+        }
+      ],
+      "trim": {
+        "vehicleType": "CAR",
+        "name": "2.0 XEi Multi-Drive S (Flex)",
+        "doors": 4,
+        "productionYear": 2019,
+        "make": {
+          "name": "Toyota",
+          "imageId": 585933502
+        },
+        "model": {
+          "name": "Corolla",
+          "year": 2020
+        },
+        "bodystyle": {
+          "name": "Sedan"
+        },
+        "fuel": {
+          "name": "Flex"
+        },
+        "transmission": {
+          "name": "Automática"
+        }
+      },
+      "dealer": {
+        "name": "Vitrine Veículos Jales",
+        "location": {
+          "coordinates": "-20.262309,-50.5482008",
+          "city": "Jales",
+          "state": "SP"
+        }
+      }
+    },
+    {
+      "id": 32180753,
+      "price": 119900,
+      "deal0km": false,
+      "km": 129000,
+      "hasProductFeirao": false,
+      "hasProductVideocall": false,
+      "oem": false,
+      "hasMechanicalWarranty": false,
+      "hasRepairAssistance": false,
+      "images": [
+        {
+          "imageId": 715797840,
+          "position": 0
+        },
+        {
+          "imageId": 715797867,
+          "position": 1
+        },
+        {
+          "imageId": 715797899,
+          "position": 2
+        },
+        {
+          "imageId": 715797942,
+          "position": 3
+        },
+        {
+          "imageId": 715797971,
+          "position": 4
+        },
+        {
+          "imageId": 715797988,
+          "position": 5
+        },
+        {
+          "imageId": 715798005,
+          "position": 6
+        },
+        {
+          "imageId": 715798019,
+          "position": 7
+        },
+        {
+          "imageId": 715798228,
+          "position": 8
+        },
+        {
+          "imageId": 715798302,
+          "position": 9
+        },
+        {
+          "imageId": 715798315,
+          "position": 10
+        },
+        {
+          "imageId": 715798337,
+          "position": 11
+        },
+        {
+          "imageId": 715798362,
+          "position": 12
+        },
+        {
+          "imageId": 715798382,
+          "position": 13
+        },
+        {
+          "imageId": 715798404,
+          "position": 14
+        },
+        {
+          "imageId": 715798413,
+          "position": 15
+        },
+        {
+          "imageId": 715798435,
+          "position": 16
+        },
+        {
+          "imageId": 715798450,
+          "position": 17
+        },
+        {
+          "imageId": 715798467,
+          "position": 18
+        }
+      ],
+      "trim": {
+        "vehicleType": "CAR",
+        "name": "2.0 XEi Multi-Drive S (Flex)",
+        "doors": 4,
+        "productionYear": 2019,
+        "make": {
+          "name": "Toyota",
+          "imageId": 585933502
+        },
+        "model": {
+          "name": "Corolla",
+          "year": 2020
+        },
+        "bodystyle": {
+          "name": "Sedan"
+        },
+        "fuel": {
+          "name": "Flex"
+        },
+        "transmission": {
+          "name": "Automática"
+        }
+      },
+      "dealer": {
+        "name": "ZAP AUTOMOVEIS",
+        "location": {
+          "coordinates": "-19.3621728,-40.0650374",
+          "city": "Linhares",
+          "state": "ES"
+        }
+      }
+    },
+    {
+      "id": 7603125,
+      "price": 130000,
+      "deal0km": false,
+      "km": 86000,
+      "hasProductFeirao": false,
+      "hasProductVideocall": true,
+      "oem": false,
+      "hasMechanicalWarranty": false,
+      "hasRepairAssistance": false,
+      "images": [
+        {
+          "imageId": 251711113,
+          "position": 0
+        },
+        {
+          "imageId": 251711119,
+          "position": 1
+        },
+        {
+          "imageId": 251711126,
+          "position": 2
+        },
+        {
+          "imageId": 251711133,
+          "position": 3
+        },
+        {
+          "imageId": 251711135,
+          "position": 4
+        },
+        {
+          "imageId": 251711138,
+          "position": 5
+        },
+        {
+          "imageId": 251711142,
+          "position": 6
+        },
+        {
+          "imageId": 251711145,
+          "position": 7
+        },
+        {
+          "imageId": 251711150,
+          "position": 8
+        },
+        {
+          "imageId": 251711154,
+          "position": 9
+        },
+        {
+          "imageId": 251711161,
+          "position": 10
+        }
+      ],
+      "trim": {
+        "vehicleType": "CAR",
+        "name": "2.0 XEi Multi-Drive S (Flex)",
+        "doors": 4,
+        "productionYear": 2020,
+        "make": {
+          "name": "Toyota",
+          "imageId": 585933502
+        },
+        "model": {
+          "name": "Corolla",
+          "year": 2020
+        },
+        "bodystyle": {
+          "name": "Sedan"
+        },
+        "fuel": {
+          "name": "Flex"
+        },
+        "transmission": {
+          "name": "Automática"
+        }
+      },
+      "dealer": {
+        "name": "Regi Automóveis",
+        "location": {
+          "coordinates": "-1.2963527,-47.9233663",
+          "city": "Castanhal",
+          "state": "PA"
+        }
+      }
+    },
+    {
+      "id": 30673961,
+      "price": 123900,
+      "deal0km": false,
+      "km": 1111,
+      "hasProductFeirao": false,
+      "hasProductVideocall": false,
+      "oem": false,
+      "hasMechanicalWarranty": false,
+      "hasRepairAssistance": false,
+      "images": [
+        {
+          "imageId": 684332340,
+          "position": 0
+        },
+        {
+          "imageId": 684332311,
+          "position": 1
+        },
+        {
+          "imageId": 684332255,
+          "position": 2
+        },
+        {
+          "imageId": 684332283,
+          "position": 3
+        },
+        {
+          "imageId": 684332273,
+          "position": 4
+        },
+        {
+          "imageId": 684332303,
+          "position": 5
+        },
+        {
+          "imageId": 684332293,
+          "position": 6
+        }
+      ],
+      "trim": {
+        "vehicleType": "CAR",
+        "name": "2.0 XEi Multi-Drive S (Flex)",
+        "doors": 4,
+        "productionYear": 2020,
+        "make": {
+          "name": "Toyota",
+          "imageId": 585933502
+        },
+        "model": {
+          "name": "Corolla",
+          "year": 2020
+        },
+        "bodystyle": {
+          "name": "Sedan"
+        },
+        "fuel": {
+          "name": "Flex"
+        },
+        "transmission": {
+          "name": "Automática"
+        }
+      },
+      "dealer": {
+        "name": "SHOPPING CAR",
+        "location": {
+          "coordinates": "-29.7780451,-57.0966508",
+          "city": "Uruguaiana",
+          "state": "RS"
+        }
+      }
+    },
+    {
+      "id": 30440975,
+      "price": 114900,
+      "deal0km": false,
+      "km": 100000,
+      "hasProductFeirao": false,
+      "hasProductVideocall": true,
+      "oem": false,
+      "hasMechanicalWarranty": false,
+      "hasRepairAssistance": false,
+      "images": [
+        {
+          "imageId": 713679169,
+          "position": 0
+        },
+        {
+          "imageId": 713679217,
+          "position": 1
+        },
+        {
+          "imageId": 713679232,
+          "position": 2
+        },
+        {
+          "imageId": 713679274,
+          "position": 3
+        },
+        {
+          "imageId": 713679317,
+          "position": 4
+        },
+        {
+          "imageId": 713679330,
+          "position": 5
+        },
+        {
+          "imageId": 713679344,
+          "position": 6
+        },
+        {
+          "imageId": 713679358,
+          "position": 7
+        },
+        {
+          "imageId": 713679371,
+          "position": 8
+        },
+        {
+          "imageId": 713679411,
+          "position": 9
+        },
+        {
+          "imageId": 713679423,
+          "position": 10
+        },
+        {
+          "imageId": 713679436,
+          "position": 11
+        },
+        {
+          "imageId": 713679449,
+          "position": 12
+        },
+        {
+          "imageId": 713679462,
+          "position": 13
+        },
+        {
+          "imageId": 713679482,
+          "position": 14
+        },
+        {
+          "imageId": 713679500,
+          "position": 15
+        }
+      ],
+      "trim": {
+        "vehicleType": "CAR",
+        "name": "2.0 XEi Multi-Drive S (Flex)",
+        "doors": 4,
+        "productionYear": 2019,
+        "make": {
+          "name": "Toyota",
+          "imageId": 585933502
+        },
+        "model": {
+          "name": "Corolla",
+          "year": 2020
+        },
+        "bodystyle": {
+          "name": "Sedan"
+        },
+        "fuel": {
+          "name": "Flex"
+        },
+        "transmission": {
+          "name": "Automática"
+        }
+      },
+      "dealer": {
+        "name": "Fonte Veiculos",
+        "location": {
+          "coordinates": "-26.9496527,-49.0719253",
+          "city": "Blumenau",
+          "state": "SC"
+        }
+      }
+    },
+    {
+      "id": 29201838,
+      "price": 119990,
+      "deal0km": false,
+      "km": 80000,
+      "hasProductFeirao": false,
+      "hasProductVideocall": false,
+      "oem": false,
+      "hasMechanicalWarranty": false,
+      "hasRepairAssistance": false,
+      "images": [
+        {
+          "imageId": 653882010,
+          "position": 0
+        },
+        {
+          "imageId": 653882007,
+          "position": 1
+        },
+        {
+          "imageId": 653882008,
+          "position": 2
+        },
+        {
+          "imageId": 653882011,
+          "position": 3
+        },
+        {
+          "imageId": 653882016,
+          "position": 4
+        },
+        {
+          "imageId": 653882012,
+          "position": 5
+        },
+        {
+          "imageId": 653882020,
+          "position": 6
+        },
+        {
+          "imageId": 653882009,
+          "position": 7
+        },
+        {
+          "imageId": 653882013,
+          "position": 8
+        },
+        {
+          "imageId": 653882019,
+          "position": 9
+        },
+        {
+          "imageId": 653882018,
+          "position": 10
+        },
+        {
+          "imageId": 653882015,
+          "position": 11
+        },
+        {
+          "imageId": 653882017,
+          "position": 12
+        },
+        {
+          "imageId": 653882014,
+          "position": 13
+        }
+      ],
+      "trim": {
+        "vehicleType": "CAR",
+        "name": "2.0 XEi Multi-Drive S (Flex)",
+        "doors": 4,
+        "productionYear": 2020,
+        "make": {
+          "name": "Toyota",
+          "imageId": 585933502
+        },
+        "model": {
+          "name": "Corolla",
+          "year": 2020
+        },
+        "bodystyle": {
+          "name": "Sedan"
+        },
+        "fuel": {
+          "name": "Flex"
+        },
+        "transmission": {
+          "name": "Automática"
+        }
+      },
+      "dealer": {
+        "name": "ALISON MOTORS",
+        "location": {
+          "coordinates": "-23.433888889,-45.067777778",
+          "city": "Ubatuba",
+          "state": "SP"
+        }
+      }
+    }
+  ],
+  "urls": {
+    "10981730": "https://www.mobiauto.com.br/comprar/carros/sp-jales/toyota/corolla/2020/2-0-xei-multi-drive-s-flex/detalhes/10981730",
+    "32180753": "https://www.mobiauto.com.br/comprar/carros/es-linhares/toyota/corolla/2020/2-0-xei-multi-drive-s-flex/detalhes/32180753",
+    "7603125": "https://www.mobiauto.com.br/comprar/carros/pa-castanhal/toyota/corolla/2020/2-0-xei-multi-drive-s-flex/detalhes/7603125",
+    "30673961": "https://www.mobiauto.com.br/comprar/carros/rs-uruguaiana/toyota/corolla/2020/2-0-xei-multi-drive-s-flex/detalhes/30673961",
+    "30440975": "https://www.mobiauto.com.br/comprar/carros/sc-blumenau/toyota/corolla/2020/2-0-xei-multi-drive-s-flex/detalhes/30440975",
+    "29201838": "https://www.mobiauto.com.br/comprar/carros/sp-ubatuba/toyota/corolla/2020/2-0-xei-multi-drive-s-flex/detalhes/29201838",
+    "23735056": "https://www.mobiauto.com.br/comprar/carros/rs-guaiba/toyota/corolla/2020/1-8-hybrid-flex-altis-premium-cvt/detalhes/23735056",
+    "32403369": "https://www.mobiauto.com.br/comprar/carros/rj-rio-de-janeiro/toyota/corolla/2020/2-0-xei-multi-drive-s-flex/detalhes/32403369",
+    "28718791": "https://www.mobiauto.com.br/comprar/carros/ac-rio-branco/toyota/corolla/2020/2-0-xei-multi-drive-s-flex/detalhes/28718791",
+    "32359638": "https://www.mobiauto.com.br/comprar/carros/rj-niteroi/toyota/corolla/2020/gli-2-0/detalhes/32359638",
+    "32405138": "https://www.mobiauto.com.br/comprar/carros/df-brasilia/toyota/corolla/2020/2-0-xei-multi-drive-s-flex/detalhes/32405138",
+    "28320442": "https://www.mobiauto.com.br/comprar/carros/ce-maracanau/toyota/corolla/2020/2-0-altis-direct-shift-flex/detalhes/28320442",
+    "31730722": "https://www.mobiauto.com.br/comprar/carros/pa-ananindeua/toyota/corolla/2020/gli-2-0/detalhes/31730722",
+    "32089475": "https://www.mobiauto.com.br/comprar/carros/mg-belo-horizonte/toyota/corolla/2020/2-0-xei-multi-drive-s-flex/detalhes/32089475",
+    "27978309": "https://www.mobiauto.com.br/comprar/carros/sp-sao-jose-dos-campos/toyota/corolla/2020/gli-2-0/detalhes/27978309",
+    "32171783": "https://www.mobiauto.com.br/comprar/carros/sp-sao-paulo/toyota/corolla/2020/2-0-xei-multi-drive-s-flex/detalhes/32171783",
+    "32354010": "https://www.mobiauto.com.br/comprar/carros/es-serra/toyota/corolla/2020/gli-2-0/detalhes/32354010",
+    "30116652": "https://www.mobiauto.com.br/comprar/carros/pa-tailandia/toyota/corolla/2020/2-0-altis-direct-shift-flex/detalhes/30116652",
+    "32117835": "https://www.mobiauto.com.br/comprar/carros/sc-gaspar/toyota/corolla/2020/1-8-hybrid-flex-altis-premium-cvt/detalhes/32117835",
+    "32128849": "https://www.mobiauto.com.br/comprar/carros/sp-osasco/toyota/corolla/2020/1-8-hybrid-flex-altis-premium-cvt/detalhes/32128849",
+    "30232455": "https://www.mobiauto.com.br/comprar/carros/sc-meleiro/toyota/corolla/2020/2-0-xei-multi-drive-s-flex/detalhes/30232455",
+    "20017051": "https://www.mobiauto.com.br/comprar/carros/ba-santo-antonio-de-jesus/toyota/corolla/2020/2-0-xei-multi-drive-s-flex/detalhes/20017051",
+    "13587069": "https://www.mobiauto.com.br/comprar/carros/sp-sao-paulo/toyota/corolla/2020/1-8-vvt-i-hybrid-flex-altis-cvt/detalhes/13587069",
+    "21551436": "https://www.mobiauto.com.br/comprar/carros/pr-londrina/toyota/corolla/2020/1-8-hybrid-flex-altis-premium-cvt/detalhes/21551436"
+  }
+}
