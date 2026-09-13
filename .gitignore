@@ -1,0 +1,16 @@
+# The line-scoped credential -- never tracked, never shipped.
+plow-credentials
+plow-credentials.*
+!plow-credentials.example
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+
+# Local agent state
+fipe/state/
+
+# OS
+.DS_Store

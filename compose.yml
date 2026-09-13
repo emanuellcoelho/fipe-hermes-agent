@@ -1,0 +1,28 @@
+services:
+  agent:
+    build: .
+    # Which agent this is on the Agent Index. The reporter refuses to guess.
+    environment:
+      AGENT_ID: fipe
+      # Professional scraping fallback (scraperapi.com) -- revives ESPN-style
+      # JSON APIs this network cannot reach directly. Empty = disabled.
+      SCRAPERAPI_KEY: ${SCRAPERAPI_KEY:-}
+    volumes:
+      # `.host`: the image copies it into place as root, so this file's host
+      # ownership does not matter.
+      - ./plow-credentials:/var/lib/plow/credentials.host:ro
+      # The agent's home, kept across `up`/`down` for its sessions, memory and
+      # the watched vehicles. `docker compose down -v` starts this agent fresh.
+      - agent-home:/var/lib/hermes
+    # The agent checkpoints on SIGTERM; its supervisor allows 30s, and Docker's
+    # default 10s cuts it off and orphans the transcript lease.
+    stop_grace_period: 35s
+    # The agent is idle 99% of the time -- crons a few times a day, one chat
+    # turn now and then. The caps keep a runaway turn from starving the host;
+    # 512m is what a settled gateway actually uses, with headroom.
+    mem_limit: 512m
+    cpus: 1.0
+    # No ports: the agent connects to Plow outbound.
+
+volumes:
+  agent-home:

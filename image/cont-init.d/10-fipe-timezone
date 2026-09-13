@@ -1,0 +1,42 @@
+#!/command/with-contenv sh
+# The process timezone, from this agent's own config.
+#
+# `hermes cron create` takes no per-job zone, so every schedule this agent
+# registers -- the daily market sweep -- fires in the CONTAINER's zone. The base image does not set one, so if nothing here wrote
+# TZ, sweeps and digests would land at the wrong local hour, silently.
+#
+# Written into s6's own environment directory rather than exported: this runs
+# in cont-init, before any service starts, and `with-contenv` is how the
+# gateway and everything under it pick the value up.
+#
+# UTC when there is no config yet, explicitly: onboarding replaces it, and the
+# change lands on the next restart. A malformed config, an unreadable file or
+# a zone the tz database does not know is never fatal -- the boot must not go
+# down over a file the agent itself writes.
+set -eu
+
+CONFIG=${FIPE_CONFIG:-/var/lib/hermes/fipe/config.json}
+OUT=${FIPE_TZ_OUT:-/run/s6/container_environment/TZ}
+PYTHON=${FIPE_PYTHON:-/opt/hermes/.venv/bin/python3}
+
+zone=$("$PYTHON" - "$CONFIG" <<'PY' 2>/dev/null || true
+import json, sys
+from zoneinfo import ZoneInfo
+
+try:
+    name = str(json.load(open(sys.argv[1]))["timezone"]).strip()
+    ZoneInfo(name)          # refuse a name nothing can resolve
+    print(name)
+except Exception:
+    pass
+PY
+)
+
+if [ -z "$zone" ]; then
+  zone=UTC
+  echo "fipe-timezone: no usable timezone in $CONFIG -- TZ=UTC until onboarding writes one" >&2
+fi
+
+mkdir -p "$(dirname "$OUT")"
+printf '%s' "$zone" > "$OUT"
+echo "fipe-timezone: TZ=$zone" >&2

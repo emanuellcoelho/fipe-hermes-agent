@@ -1,0 +1,13 @@
+# Secrets never enter the build context.
+plow-credentials
+plow-credentials.*
+!plow-credentials.example
+
+.git
+tests
+__pycache__
+*.pyc
+.pytest_cache
+.DS_Store
+README.md
+AGENTS.md
