@@ -1,7 +1,7 @@
 # Fipe
 
-> **FIPE, ficha técnica e preço de mercado — para quem vende e quem compra.**
-> **FIPE, the spec sheet and the market price — for sellers and for buyers.**
+> **FIPE, ficha técnica e preço de mercado de carros e motos — para quem vende e quem compra.**
+> **What it's worth, what it's made of, what the market asks.**
 
 A Brazilian car-and-motorcycle market [Plow](https://plow.co) agent. Send it
 a make and model — "toyota corolla 2020" — and it answers three ways: the
