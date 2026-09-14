@@ -30,7 +30,11 @@ registered — in as few turns as a first conversation takes.
        /opt/hermes/bin/hermes cron create "0 9 * * *" \
          "Run the market sweep now: execute fipe.py sweep and compose one alert message per watched vehicle in the user's language as your final response, per the fipe-acompanhar skill; if the sweep has no alerts, end with NO_REPLY." \
          --name fipe-sweep --skill fipe-acompanhar \
+         --model anthropic/claude-sonnet-5 --provider plow \
          --deliver "plow_chat:${PLOW_HOME_CHANNEL}"
+
+A cron created without `--model` and `--provider` lands with no LLM provider
+and fails every run with "No LLM provider configured" -- always pass both.
 
    The `0 9` follows the user's `sweep_schedule` (re-register after a change
    — remove the old job first with `hermes cron remove fipe-sweep`). If the
