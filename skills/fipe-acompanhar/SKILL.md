@@ -1,3 +1,7 @@
+---
+name: fipe-acompanhar
+description: Track a vehicle deal and alert on price movement. Use when the user asks to track or watch a car/deal, asks about a tracked deal or negotiation, or when the sweep cron fires.
+---
 # fipe-acompanhar
 
 Track a vehicle and alert on price. The engine diffs listings and watches

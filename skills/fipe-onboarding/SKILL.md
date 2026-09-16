@@ -1,3 +1,7 @@
+---
+name: fipe-onboarding
+description: First-contact setup — timezone, language, digest time and the daily sweep. Use when onboarding is unfinished (onboarding_missing is non-empty), or the user asks to change these preferences.
+---
 # fipe-onboarding
 
 First contact. The goal: the user knows what you do and the daily sweep is

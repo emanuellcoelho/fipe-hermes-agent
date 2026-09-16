@@ -1,3 +1,7 @@
+---
+name: fipe-carro
+description: FIPE value, spec sheet (ficha técnica) and market price for a car. Use when the user asks what a car is worth, asks for the FIPE value or spec sheet, or sends a listing to evaluate.
+---
 # fipe-carro
 
 FIPE, ficha técnica and market price. The engine owns the numbers; you own
