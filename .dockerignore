@@ -5,9 +5,15 @@ plow-credentials.*
 
 .git
 tests
-__pycache__
-*.pyc
+# Rooted patterns only match the context root, and every one of these lives
+# nested: the bytecode under skills/*/scripts/ shipped inside the image for
+# months because `__pycache__` alone never reached it.
+**/__pycache__
+**/*.pyc
 .pytest_cache
-.DS_Store
+**/.DS_Store
+# Agent Index artwork: the avatar and the carousel. Nothing COPYs it, so it
+# only ever cost upload time on every build.
+assets/
 README.md
 AGENTS.md

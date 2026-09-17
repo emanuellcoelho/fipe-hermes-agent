@@ -1,16 +1,21 @@
 services:
   agent:
     build: .
+    # What `plow-agents mint` wrote: where Plow is, and this agent's token. A
+    # Plow cloud deploy publishes the same names into the container's own
+    # environment, so a local run and a hosted one boot down the same path.
+    env_file:
+      - path: ./plow-credentials
+        required: false
     # Which agent this is on the Agent Index. The reporter refuses to guess.
+    # The image carries the same value as ENV -- the cloud has no compose to
+    # read this from -- and this line is what a local run uses.
     environment:
       AGENT_ID: fipe
       # Professional scraping fallback (scraperapi.com) -- revives ESPN-style
       # JSON APIs this network cannot reach directly. Empty = disabled.
       SCRAPERAPI_KEY: ${SCRAPERAPI_KEY:-}
     volumes:
-      # `.host`: the image copies it into place as root, so this file's host
-      # ownership does not matter.
-      - ./plow-credentials:/var/lib/plow/credentials.host:ro
       # The agent's home, kept across `up`/`down` for its sessions, memory and
       # the watched vehicles. `docker compose down -v` starts this agent fresh.
       - agent-home:/var/lib/hermes

@@ -7,7 +7,16 @@
 # The tag is an immutable base-<sha> naming one commit of
 # plow-pbc/plow-hermes-agent, resolved to a digest, so a moving tag can never
 # substitute different bytes under a running agent.
-FROM public.ecr.aws/e1h7x4a2/plow-cloud-agents:base-ef4b30e00e74b4f2c47832acecfacb5eba717468@sha256:693ac5520ec0a2cabe8fc9de6a0c4827b79a7a0556228345aaf63664a001d7b4
+FROM public.ecr.aws/e1h7x4a2/plow-cloud-agents:base-910b8e3ba8980e20faae9f37dcaca0ea9d8bd9ae@sha256:f4739b6e74309dcccd087792949fd613191db7f33d33109c78127684dcb5dd73
+
+# Which agent this is on the Agent Index. Compose sets this too, and a Plow
+# cloud deploy does not: the provisioner only knows AGENT_ID for the variants
+# it lists, and a self-published image is not one of them. Without it the
+# reporter refuses to guess -- image/s6-overlay/s6-rc.d/agent-index/run parks
+# on `sleep 86400` and this agent silently stops reporting usage. It is a fact
+# of this variant, not a secret, so it belongs in the image; a host that sets
+# its own still wins, because the container environment outranks image ENV.
+ENV AGENT_ID=fipe
 
 # Identity: only what is specific to this agent. plow-init composes the home's
 # SOUL.md on every boot as the base persona followed by this file. Never COPY
