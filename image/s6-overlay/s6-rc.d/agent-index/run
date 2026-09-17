@@ -23,6 +23,20 @@ PLOW_AGENT_TOKEN=$(cat /run/s6/container_environment/PLOW_AGENT_TOKEN 2>/dev/nul
 AGENT_ID=$(cat /run/s6/container_environment/AGENT_ID 2>/dev/null || true)
 export AGENT_ID
 
+# Read by hand for the same reason the two above are: this service is plain
+# /bin/sh, not with-contenv, so nothing the host injected reaches it otherwise.
+# On a Plow cloud agent PLOW_AGENT_TOKEN is the literal placeholder `proxied`,
+# which authenticates only THROUGH this proxy -- it swaps the Authorization
+# header for the real credential. Miss the variable and the client falls back
+# to its api.plow.co default, /v1/auth/index-identity answers 401 for `proxied`,
+# and the loop below prints "no index key this pass" and sleeps. Forever, and
+# quietly: the agent runs, talks, and never scores. Self-hosted the variable is
+# absent and the token is real, so the client's own default is the right one.
+PLOW_API_BASE=$(cat /run/s6/container_environment/PLOW_API_BASE 2>/dev/null || true)
+if [ -n "$PLOW_API_BASE" ]; then
+  export PLOW_API_BASE
+fi
+
 # The agent's home is where its usage store lives, and the client keeps its
 # ledger beside that store. Fixed, not overridable: this image puts the home
 # there, and a second way to say where it is only creates the case where the
