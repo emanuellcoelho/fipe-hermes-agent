@@ -7,7 +7,7 @@
 # The tag is an immutable base-<sha> naming one commit of
 # plow-pbc/plow-hermes-agent, resolved to a digest, so a moving tag can never
 # substitute different bytes under a running agent.
-FROM public.ecr.aws/e1h7x4a2/plow-cloud-agents:base-910b8e3ba8980e20faae9f37dcaca0ea9d8bd9ae@sha256:f4739b6e74309dcccd087792949fd613191db7f33d33109c78127684dcb5dd73
+FROM public.ecr.aws/e1h7x4a2/plow-cloud-agents:base-51f83158a70a383f03a4d03dbd8b6ea102cf0361@sha256:253d7ed3409effa7fa59113d93b4b79bb731d8264cdaf4cd60294924d0110a2e
 
 # Which agent this is on the Agent Index. Compose sets this too, and a Plow
 # cloud deploy does not: the provisioner only knows AGENT_ID for the variants
