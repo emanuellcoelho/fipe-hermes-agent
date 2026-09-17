@@ -18,6 +18,14 @@ FROM public.ecr.aws/e1h7x4a2/plow-cloud-agents:base-910b8e3ba8980e20faae9f37dcac
 # its own still wins, because the container environment outranks image ENV.
 ENV AGENT_ID=fipe
 
+# Where this image comes from, who may use it, and what it is. GHCR reads the
+# source label and links the package to the repository, so the Index entry,
+# the code and the pinned image are one chain a stranger can walk; MIT is a
+# condition of ranking on the leaderboard, and the digest is what Plow pins.
+LABEL org.opencontainers.image.source="https://github.com/emanuellcoelho/fipe-hermes-agent" \
+      org.opencontainers.image.licenses="MIT" \
+      org.opencontainers.image.description="FIPE tables, spec sheets and real market prices for cars and motorcycles, over iMessage."
+
 # Identity: only what is specific to this agent. plow-init composes the home's
 # SOUL.md on every boot as the base persona followed by this file. Never COPY
 # anything to /var/lib/hermes/SOUL.md -- the boot overwrites it.
