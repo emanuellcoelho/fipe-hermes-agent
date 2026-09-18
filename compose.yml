@@ -1,3 +1,11 @@
+# This project's name, said out loud rather than taken from the directory.
+# Compose names the container and the home volume after the project, so a
+# renamed or re-cloned checkout would otherwise create a second, empty
+# `<dir>_agent-home` and the agent would wake up with no sessions, no
+# memories and no crons -- with the real home still on disk under the old
+# name. Pinning it keeps the home tied to the agent, not to the path.
+name: fipe-hermes-agent
+
 services:
   agent:
     build: .
